@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Hexo</title>
+    <title>如何做一个个人博客1.0 | Hexo</title>
     <meta name="author" content="John Doe" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -47,7 +47,18 @@
 
 
 
-<script src="/js/lib/home.js"></script>
+<script src="https://s4.zstatic.net/ajax/libs/gitalk/1.8.0/gitalk.min.js"></script>
+<link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/gitalk/1.8.0/gitalk.min.css" />
+
+
+<script src="https://s4.zstatic.net/ajax/libs/waline/2.15.8/waline.min.js"></script>
+<link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/waline/2.15.8/waline.min.css" />
+<link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/waline/2.15.8/waline-meta.min.css" />
+
+
+<script src="https://s4.zstatic.net/ajax/libs/twikoo/1.6.31/twikoo.all.min.js"></script>
+
+
 
 <link rel="stylesheet" href="/css/main.css" />
 
@@ -157,40 +168,11 @@
 </transition>
 
         <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
-            <div id="home-head">
-    <div
-        id="home-background"
-        ref="homeBackground"
-        data-images="/images/background.jpg"
-    ></div>
-    <div id="home-info" @click="homeClick">
-        <span class="loop"></span>
-        <span class="loop"></span>
-        <span class="loop"></span>
-        <span class="loop"></span>
-        <span class="info">
-            <div class="wrap">
-                <h1>Hexo</h1>
-                <h3></h3>
-                <h5></h5>
-            </div>
-        </span>
+            <div class="article">
+    <div>
+        <h1>如何做一个个人博客1.0</h1>
     </div>
-</div>
-<div
-    id="home-posts-wrap"
-    ref="homePostsWrap"
-    true
->
-    <div id="home-posts">
-        
-
-<div class="post">
-    <a href="/2025/01/12/termux-android-linux-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">
-        <h2 class="post-title">termux/android/linux 常用命令</h2>
-    </a>
-    <div class="category-and-date">
-        
+    <div class="info">
         <span class="date">
             <span class="icon">
                 <i class="fa-solid fa-calendar fa-fw"></i>
@@ -200,40 +182,9 @@
         
         
     </div>
-    <div class="description">
-        <div class="content" v-pre>
-            
-            
-            
-        </div>
-    </div>
-    <div class="post-tags">
-        
-        
-        
-    </div>
-    <a href="/2025/01/12/termux-android-linux-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" class="go-post">阅读全文</a>
-</div>
-
-<div class="post">
-    <a href="/2025/01/12/%E5%A6%82%E4%BD%95%E5%81%9A%E4%B8%80%E4%B8%AA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A21-0/">
-        <h2 class="post-title">如何做一个个人博客1.0</h2>
-    </a>
-    <div class="category-and-date">
-        
-        <span class="date">
-            <span class="icon">
-                <i class="fa-solid fa-calendar fa-fw"></i>
-            </span>
-            2025/1/12
-        </span>
-        
-        
-    </div>
-    <div class="description">
-        <div class="content" v-pre>
-            
-            <h3 id="1-进入-https-hexo-io-zh-cn-。"><a href="#1-进入-https-hexo-io-zh-cn-。" class="headerlink" title="1.进入 https://hexo.io/zh-cn/ 。"></a>1.进入 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a> 。</h3><img skyle="font-size: 18px;box-shadow: 6px 6px 6px rgbo(0,0,0,.3);border-radius: 2%;"   src="E:\cwaz.com\hexo\blog\source\_posts\屏幕截图 2025-01-12 131313.png">
+    
+    <div class="content" v-pre>
+        <h3 id="1-进入-https-hexo-io-zh-cn-。"><a href="#1-进入-https-hexo-io-zh-cn-。" class="headerlink" title="1.进入 https://hexo.io/zh-cn/ 。"></a>1.进入 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a> 。</h3><img skyle="font-size: 18px;box-shadow: 6px 6px 6px rgbo(0,0,0,.3);border-radius: 2%;"   src="E:\cwaz.com\hexo\blog\source\_posts\屏幕截图 2025-01-12 131313.png">
 
 <h3 id="2-安装git，node-官网下载慢进https-cwaz-lanzoul-com-i3f7s2koy0ab。"><a href="#2-安装git，node-官网下载慢进https-cwaz-lanzoul-com-i3f7s2koy0ab。" class="headerlink" title="2.安装git，node.官网下载慢进https://cwaz.lanzoul.com/i3f7s2koy0ab。"></a>2.安装git，node.官网下载慢进<a target="_blank" rel="noopener" href="https://cwaz.lanzoul.com/i3f7s2koy0ab%E3%80%82">https://cwaz.lanzoul.com/i3f7s2koy0ab。</a></h3> <img skyle="font-size: 18px;box-shadow: 6px 6px 6px rgbo(0,0,0,.3);border-radius: 2%;">
 
@@ -267,206 +218,29 @@
 
 
 
-            
-        </div>
     </div>
-    <div class="post-tags">
-        
-        
-        
-    </div>
-    <a href="/2025/01/12/%E5%A6%82%E4%BD%95%E5%81%9A%E4%B8%80%E4%B8%AA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A21-0/" class="go-post">阅读全文</a>
-</div>
-
-<div class="post">
-    <a href="/2025/01/11/Cwazmath-13/">
-        <h2 class="post-title">Cwazmath 13</h2>
-    </a>
-    <div class="category-and-date">
-        
-        <span class="date">
-            <span class="icon">
-                <i class="fa-solid fa-calendar fa-fw"></i>
-            </span>
-            2025/1/11
-        </span>
-        
-        
-    </div>
-    <div class="description">
-        <div class="content" v-pre>
-            
-            <h3 id="关于-cwazmath-13"><a href="#关于-cwazmath-13" class="headerlink" title="关于 cwazmath 13"></a>关于 cwazmath 13</h3><img skyle="font-size: 18px;box-shadow: 6px 6px 6px rgbo(0,0,0,.3);border-radius: 2%;">
-
-<h3 id="将在2025-1-23发布。"><a href="#将在2025-1-23发布。" class="headerlink" title="将在2025&#x2F;1&#x2F;23发布。"></a>将在2025&#x2F;1&#x2F;23发布。</h3><img skyle="font-size: 18px;box-shadow: 6px 6px 6px rgbo(0,0,0,.3);border-radius: 2%;">
-
-<h3 id="尽情期待！"><a href="#尽情期待！" class="headerlink" title="尽情期待！"></a>尽情期待！</h3><img skyle="font-size: 18px;box-shadow: 6px 6px 6px rgbo(0,0,0,.3);border-radius: 2%;">
-
-            
-        </div>
-    </div>
-    <div class="post-tags">
-        
-        
-        
-    </div>
-    <a href="/2025/01/11/Cwazmath-13/" class="go-post">阅读全文</a>
-</div>
-
-<div class="post">
-    <a href="/2025/01/11/windows-uninstall-%E7%A0%B4%E5%9D%8F%E7%94%B5%E8%84%91%E5%B7%A5%E5%85%B7%E4%B8%8B%E8%BD%BD/">
-        <h2 class="post-title">windows uninstall 破坏电脑工具下载</h2>
-    </a>
-    <div class="category-and-date">
-        
-        <span class="date">
-            <span class="icon">
-                <i class="fa-solid fa-calendar fa-fw"></i>
-            </span>
-            2025/1/11
-        </span>
-        
-        
-    </div>
-    <div class="description">
-        <div class="content" v-pre>
-            
-            <h3 id="windows-uninstall"><a href="#windows-uninstall" class="headerlink" title="windows uninstall"></a>windows uninstall</h3><img skyle="font-size: 18px;box-shadow: 6px 6px 6px rgbo(0,0,0,.3);border-radius: 2%;">
-
-<h3 id="下载链接-https-cwaz-lanzoul-com-i96cr2klwx8h"><a href="#下载链接-https-cwaz-lanzoul-com-i96cr2klwx8h" class="headerlink" title="下载链接:https://cwaz.lanzoul.com/i96cr2klwx8h"></a>下载链接:<a target="_blank" rel="noopener" href="https://cwaz.lanzoul.com/i96cr2klwx8h">https://cwaz.lanzoul.com/i96cr2klwx8h</a></h3><img skyle="font-size: 18px;box-shadow: 6px 6px 6px rgbo(0,0,0,.3);border-radius: 2%;">
-
-<h3 id="密码-bjn8"><a href="#密码-bjn8" class="headerlink" title="密码:bjn8"></a>密码:bjn8</h3><img skyle="font-size: 18px;box-shadow: 6px 6px 6px rgbo(0,0,0,.3);border-radius: 2%;">
-
-
-            
-        </div>
-    </div>
-    <div class="post-tags">
-        
-        
-        
-    </div>
-    <a href="/2025/01/11/windows-uninstall-%E7%A0%B4%E5%9D%8F%E7%94%B5%E8%84%91%E5%B7%A5%E5%85%B7%E4%B8%8B%E8%BD%BD/" class="go-post">阅读全文</a>
-</div>
-
-<div class="post">
-    <a href="/2025/01/11/Cwazmath12/">
-        <h2 class="post-title">Cwazmath12</h2>
-    </a>
-    <div class="category-and-date">
-        
-        <span class="date">
-            <span class="icon">
-                <i class="fa-solid fa-calendar fa-fw"></i>
-            </span>
-            2025/1/11
-        </span>
-        
-        
-    </div>
-    <div class="description">
-        <div class="content" v-pre>
-            
-            <h3 id="Cwazmath12下载"><a href="#Cwazmath12下载" class="headerlink" title="Cwazmath12下载"></a>Cwazmath12下载</h3><img skyle="font-size: 18px;box-shadow: 6px 6px 6px rgbo(0,0,0,.3);border-radius: 2%;">
-
-<h3 id="目前只提供蓝奏云网盘。"><a href="#目前只提供蓝奏云网盘。" class="headerlink" title="目前只提供蓝奏云网盘。"></a>目前只提供蓝奏云网盘。</h3> <img skyle="font-size: 18px;box-shadow: 6px 6px 6px rgbo(0,0,0,.3);border-radius: 2%;">
-
-<h3 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接"></a>下载链接</h3><img skyle="font-size: 18px;box-shadow: 6px 6px 6px rgbo(0,0,0,.3);border-radius: 2%;">
-
-<h3 id="https-wwaj-lanzoul-com-iNbKp2klfyqj"><a href="#https-wwaj-lanzoul-com-iNbKp2klfyqj" class="headerlink" title="https://wwaj.lanzoul.com/iNbKp2klfyqj"></a><a target="_blank" rel="noopener" href="https://wwaj.lanzoul.com/iNbKp2klfyqj">https://wwaj.lanzoul.com/iNbKp2klfyqj</a></h3><img skyle="font-size: 18px;box-shadow: 6px 6px 6px rgbo(0,0,0,.3);border-radius: 2%;">
-
-<h3 id="密码-cmap"><a href="#密码-cmap" class="headerlink" title="密码:cmap"></a>密码:cmap</h3><img skyle="font-size: 18px;box-shadow: 6px 6px 6px rgbo(0,0,0,.3);border-radius: 2%;">
-
-
-
-            
-        </div>
-    </div>
-    <div class="post-tags">
-        
-        
-        
-    </div>
-    <a href="/2025/01/11/Cwazmath12/" class="go-post">阅读全文</a>
-</div>
-
-<div class="post">
-    <a href="/2025/01/11/CWAZ-and-ANM/">
-        <h2 class="post-title">CWAZ and ANM</h2>
-    </a>
-    <div class="category-and-date">
-        
-        <span class="date">
-            <span class="icon">
-                <i class="fa-solid fa-calendar fa-fw"></i>
-            </span>
-            2025/1/11
-        </span>
-        
-        
-    </div>
-    <div class="description">
-        <div class="content" v-pre>
-            
-            <h3 id="welcome-to-anm"><a href="#welcome-to-anm" class="headerlink" title="welcome to anm!"></a>welcome to anm!</h3><img skyle="font-size: 18px;box-shadow: 6px 6px 6px rgbo(0,0,0,.3);border-radius: 2%;">
-
-<h3 id="what-is-new"><a href="#what-is-new" class="headerlink" title="what is new?"></a>what is new?</h3> <img skyle="font-size: 18px;box-shadow: 6px 6px 6px rgbo(0,0,0,.3);border-radius: 2%;">
-
-<h3 id="anm-is-a-one’s-people-organization"><a href="#anm-is-a-one’s-people-organization" class="headerlink" title="anm is a one’s people organization"></a>anm is a one’s people organization</h3><img skyle="font-size: 18px;box-shadow: 6px 6px 6px rgbo(0,0,0,.3);border-radius: 2%;">
-
-<p>###Email:<br><img skyle="font-size: 18px;box-shadow: 6px 6px 6px rgbo(0,0,0,.3);border-radius: 2%;"></p>
-<p>###<a href="mailto:&#97;&#110;&#109;&#98;&#104;&#x64;&#99;&#x31;&#49;&#x34;&#53;&#49;&#x34;&#64;&#111;&#x75;&#116;&#x6c;&#x6f;&#x6f;&#107;&#46;&#99;&#111;&#x6d;">anmbhdc114514@outlook.com</a><br><img skyle="font-size: 18px;box-shadow: 6px 6px 6px rgbo(0,0,0,.3);border-radius: 2%;"></p>
-<p>###Are you ready?<br><img skyle="font-size: 18px;box-shadow: 6px 6px 6px rgbo(0,0,0,.3);border-radius: 2%;"></p>
-<p>###Go!<br><img skyle="font-size: 18px;box-shadow: 6px 6px 6px rgbo(0,0,0,.3);border-radius: 2%;"></p>
-
-            
-        </div>
-    </div>
-    <div class="post-tags">
-        
-        
-        
-    </div>
-    <a href="/2025/01/11/CWAZ-and-ANM/" class="go-post">阅读全文</a>
-</div>
-
-
-        <div class="page-current">
-    
-    <span class="current">1</span>
     
     
     
-    
-</div>
-
+    <div id="comment">
+        <div id="gitalk-container"></div>
     </div>
     
-    <div id="home-card">
-        <div id="card-style">
-    <div id="card-div">
-        <div class="avatar">
-            <img src="/images/avatar.jpg" alt="avatar" />
-        </div>
-        <div class="name">John Doe</div>
-        <div class="description">
-            <p>Description<br>cwaz</p>
-
-        </div>
-        
-        
-        <div class="friend-links">
-            
-            <div class="friend-link">
-                <a target="_blank" rel="noopener" href="https://space.bilibili.com/3493133677497246?spm_id_from=333.337.0.0">B站主页</a>
-            </div>
-            
-        </div>
-        
+    
+    <div id="comment">
+        <div id="giscus-container" class="giscus"></div>
     </div>
-</div>
-
+    
+    
+    <div id="comment">
+        <div id="waline-container"></div>
     </div>
+    
+    
+    <div id="comment">
+        <div id="twikoo-container"></div>
+    </div>
+    
     
 </div>
 
@@ -498,6 +272,70 @@
         
     </div>
     <script src="/js/main.js"></script>
+    
+    
+<script
+    src="https://giscus.app/client.js"
+    data-repo=""
+    data-repo-id=""
+    data-category=""
+    data-category-id=""
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="preferred_color_scheme"
+    data-lang=""
+    crossorigin
+    async
+></script>
+
+
+<script>
+    const gitalk = new Gitalk({
+        clientID: "",
+        clientSecret: "",
+        repo: "",
+        owner: "",
+        admin: "".split(","),
+        language: "",
+        id: location.pathname,
+        
+    })
+    gitalk.render("gitalk-container");
+</script>
+
+
+<script>
+    Waline.init({
+        el: "#waline-container",
+        serverURL: "",
+        commentCount: true,
+        pageview: false,
+        emoji: "https://unpkg.com/@waline/emojis@1.2.0/weibo,https://unpkg.com/@waline/emojis@1.2.0/alus,https://unpkg.com/@waline/emojis@1.2.0/bilibili,https://unpkg.com/@waline/emojis@1.2.0/qq,https://unpkg.com/@waline/emojis@1.2.0/tieba,https://unpkg.com/@waline/emojis@1.2.0/tw-emoji".split(","),
+        meta: "nick,mail,link".split(","),
+        requiredMeta: "nick".split(","),
+        lang: "",
+        wordLimit: 0,
+        pageSize: "10",
+        login: "enable",
+        
+    });
+</script>
+
+
+<script>
+    twikoo.init({
+        el: "#twikoo-container",
+        envId: "",
+        region: "",
+        path: location.pathname,
+        lang: "",
+    })
+</script>
+
+
     
 </body>
 </html>
